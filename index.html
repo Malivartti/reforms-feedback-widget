@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="index.css" />
+    <title>Document</title>
+    <!-- <script async src="http://localhost:3000/widget/123"></script> -->
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <div class="header__left">
+                    <img src="icons/bot.svg" alt="" class="icon">
+                    <div class="header__text">Помощник Политеха</div>
+                </div>
+                <button class="header__close btn-reset">
+                    <img src="icons/close.svg" alt="">
+                </button>
+            </div>
+            <div class="divider"></div>
+            <div class="body">
+                <div class="chat">
+                    <div class="message message_operator">
+                        Здравствуйте, я виртуальный помощник! Я с радостью помогу вам. Задайте свой вопрос, а я постараюсь ответить на него.
+                    </div>
+                    <div class="message message_user">
+                        Какие документы нужны для поступления?
+                    </div>
+                </div>
+            </div>
+            <div class="clues">
+                <button class="clue btn-reset">
+                    Какие документы нужны для поступления?
+                </button>
+                <button class="clue btn-reset">
+                    Какие документы нужны для перевода?
+                </button>
+            </div>
+            <form class="input">
+                <input type="text" class="input__field" placeholder="Спрашивай меня о чем угодно...">
+                <button type="submit" class="input__send btn-reset">
+                    <img src="icons/send.svg" alt="">
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
